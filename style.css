@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-bg{
+    background-image: url(./img/main-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* justify-content: center; */
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+#tittle{
+    font-family: 'Vina Sans', cursive;
+    letter-spacing: 15px;
+    background-color: rgba(165, 42, 42, 0.318);
+    font-size: 150px;
+    text-align: left;
+    margin-left: 200px;
+    color: white;
+    margin-top: 100px; 
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 8px inset rgb(120, 31, 31);
+    outline-offset: 10px;
+}
+.first-div{
+    display: block;
+}
+article {
+    background-color: rgb(120, 31, 31);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 48px 80px;
+    line-height: 28px;
+    display: block;
+}
+.prg{
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+}
+.second-div{
+    background-image: url(./img/second-bg.jpg) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2{
+    font-family: 'Vina Sans', cursive;
+    letter-spacing: 15px;
+    background-color: rgba(165, 42, 42, 0.318);
+    font-size: 150px;
+    text-align: center;
+    margin-left: 200px;
+    color: white;
+    margin-top: 100px; 
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: 8px inset rgb(120, 31, 31);
+    outline-offset: 10px;
+    margin-right: 210px;
+}
+.third-div{
+    display: block;
+}
+.fourth-div{
+    background-image: url(./img/third-bg.jpg) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fifth-div{
+    display: block;
+}
+.sixth-div{
+    background-image: url(./img/fourth-bg.jpg) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#last-h2{
+    font-size: 120px;
+}
